@@ -1,0 +1,103 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Tilt neon;
+}
+
+body{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #FFF8CF;
+}
+
+header{
+    background-color: #9BD8D4;
+    width: 100%;
+    height: 80px;
+    text-transform: uppercase;
+    display: flex;
+}
+
+.links{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 90%;
+    height: 30px;
+}
+
+.listalinks li{
+    list-style: none;
+    display: inline-block;
+    justify-content: space-between;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 15px;
+    color: black;
+}
+
+.listalinks li:hover{
+    background-color: rgb(85, 156, 156);
+}
+
+.logotipo{
+    width: 8%;
+    height: 100%;
+    background-color: white;
+}
+
+.login{
+    width: 8%;
+    height: 100%;
+    justify-content: flex-end;
+    background-color: white;
+}
+
+.topicos{
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+    height: 500px;
+    gap: 15px;
+    position: fixed;
+}
+
+.favoritos{
+    justify-content: center;
+    width: 900px;
+    height: 90px;
+    background-color: #FFF8CF;
+    display: flex;
+    position: absolute;
+    border-bottom: 10px solid #63B29F;
+    text-align: center;
+    align-items: center;
+    margin-left: 200px;
+    
+}
+
+.estrela{
+    display: flex;
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+
+main{
+    display: flex;
+}
+
+.nomeDosLivros{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 200px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20% 20%;
+    grid-template-rows: 30% 30% 30%;
+    margin-top: 150px;
+    margin-left: 210px;
+    
+}
